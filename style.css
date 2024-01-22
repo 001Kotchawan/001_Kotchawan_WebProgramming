@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
 h1{
-    color: rgb(206, 13, 245);
+    color: rgb(19, 4, 111);
 }
+.navbar-brand {
+    color: #023047;
+}
+.bg-body-tertiary {
+    background-color: white !important;
+}
+.myBtn{
+    color: white;
+    background-color: #023047;
+}
+.portfolio {
+    background-color: rgb(70, 180, 248);
+    color: azure;
+}
+.iconStyle {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+    color: #1982c4;
+  }
+  .headerVSpace {
+    padding-top: 40px;
+  }
+  .portfolio3{
+    background-color: rgb(3, 158, 254);
+    color: white;
+  }  
