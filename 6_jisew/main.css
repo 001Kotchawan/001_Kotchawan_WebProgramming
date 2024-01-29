@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit&display=swap');
+body{
+    font-family: 'Itim', cursive;
+}
+
+.dow{
+    width: 50px;
+    position: relative;
+    left: 2rem;
+  }
+  .drop{
+    bottom: 0.1rem;
+    color: #ffffff;
+    position: relative;
+    right:  1rem;
+  }
+  .nav-item{
+    position: relative;
+    right:-3rem;
+  }
+  .mg{
+    background-color: black;
+  }
+.cnn{
+    background-color: red;
+    color: aliceblue;
+}
+
+.span{
+  margin-right: 15px;
+}
+li{
+display: inline;
+margin-right: 0.5rem;
+
+}
+.dd{
+    color: aliceblue;
+}
+/* จบหัว */
+
+.ul{
+
+font-size: 16px;
+white-space: nowrap;
+}
+.span{
+color: red;
+}
+.Vacc{
+position: relative;
+right: 1.4rem;
+}
+.con{
+position: relative;
+right: 1%;
+}
+.line{
+position: relative;
+right: 1.7rem;
+opacity: 0.5;
+
+}
+.Most{
+position: relative;
+right: 3.4rem;
+}
+.COVID-19T{
+position: relative;
+right: 2rem;
+}
+@media (max-width: 768px) {
+.ul {
+ display: none;
+}
+
+.ul[aria-disabled="flase"] {
+ display: inline-block; 
+}
+}
+.ul{
+text-decoration: none; 
+
+}
+.second{
+align-items: center;
+text-align: center;
+}
