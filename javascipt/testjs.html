@@ -14,6 +14,11 @@
             let Celsius = ((f - 32) * 5) / 9;
             return celsius;
         }
+
+        function hourToSecond(h){
+            oneHoure = 3600;
+            return h*oneHour;
+        }
        
     </script>
 </head>
@@ -21,12 +26,22 @@
 
    <h1>JavaScript</h1> 
    <script>
-    let name = 'Kotchawan';
+    //2. oddEven
+    let n = 11;
+    oddEven(n);
+
+    //4. HourToSecound
+    let h = 5;
+    let second = hourToSecond(h);
+    document.write('<br>Convert ' + h + 'hr(s) ='+ second + 'seconds<br>');
+    
     // c = confirm( 'Are you sure?' );
     // if(c){
     //     document.write("Hello " + name); 
     // }else{
     //     document.write("GoodBye " + name); } 
+
+    let name = 'Kotchawan';
 
         // Array
         let dept;
