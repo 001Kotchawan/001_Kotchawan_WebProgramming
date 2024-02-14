@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: "Mali", cursive;
+}
+
+.background {
+    background-color: #3D3B40; /* สีพื้นหลังสว่างและสดใส */
+  }
+  
+  .navbar {
+    background-color: #3D3B40; /* สี Navbar ที่สดใส */
+    color: white !important;
+  }
+  .white-text {
+    color: white;
+  }
+ .bg-head{
+    background-color: #3D3B40; /* สี Navbar ที่สดใส */
+  }
+
+  .secord-background{
+    background-color: #BFCFE7;
+  }
+  .nav-link{
+    color: white;
+  }
+
+  .card-content:hover{
+    background-color: #BFCFE7;
+  }
+  /* ส่วน contact*/
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.left-margin {
+    margin-left: 20px; /* ปรับค่าตามต้องการ */
+}
+
+.card-img-top{
+  min-height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.card-dsc{
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+  
