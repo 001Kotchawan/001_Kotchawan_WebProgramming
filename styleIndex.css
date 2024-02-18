@@ -53,4 +53,19 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media (max-width: 576px) {
+  .icon-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .intro{
+    text-align: center;
+    align-items: center;
+  }
+}
   

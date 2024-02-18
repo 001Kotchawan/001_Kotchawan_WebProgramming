@@ -1,70 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>บานอฟฟี่พาย</title>
+    <title>BANOFFEE PIE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Mali";
+            font-size: 0.5cm;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            display: inline-block;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .ingredients-container {
+            background-color: #f2f2f2;
+            padding: 30px;
+            /* เพิ่มช่องว่างด้านในของกล่อง */
+            padding-top: 2px;
+            width: 40%;
+            /* กำหนดความกว้างของกล่อง */
+            margin: auto;
+            /* จัดกล่องให้อยู่ตรงกลาง */
+        }
+
+        .bg {
+            padding: 20px;
+            padding-top: 2px;
+            margin-top: 3px;
+            width: 40%;
+            margin: auto;
+            margin-top: 50px;
+
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid #8B7E74;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(121, 76, 24);
+            color: white;
+            margin-right: 30px;
+
+            .nutrition-table th,
+            .nutrition-table td {
+                border: 2px solid #ddd;
+                padding: 8px;
+                text-align: center;
+            }
+
+            .nutrition-table th {
+                background-color: #f2f2f2;
+                font-weight: bold;
+            }
+
+            .nutrition-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            .nutrition-table tr:hover {
+                background-color: #ddd;
+            }
+
+            .nutrition-table h1 {
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+    </style>
+
 </head>
+
 <body>
-    <h1>BANOFFEE PIE </h1>
-    <h2>บานอฟฟี่พาย</h2>
+    <div class="image-container">
+        <h1 class="container-fluid " style="text-align: center; color: #3C3633; font-size: 1cm;">BANOFFEE PIE </h1>
+        <h2 class="container-fluid " style="text-align: center; color: #3C3633; font-size: 0.5cm;">บานอฟฟี่พาย</h2>
 
-    <img src="img/im1.jpg" alt="Pie" width="500px">
+        <img src="img/im1.jpg" alt="Pie" width="500px  style=" object-fit: cover;">
+    </div>
 
-    <h3>ส่วนผสม</h3>
-    <ul>
-        <li>แครกเกอร์ 200 กรัม</li>
-        <li>เนยละลาย(จืด) 80 กรัม</li>
-        <li>นมข้นหวาน 200 กรัม</li>
-        <li>ผงโกโก้ 30 กรัม</li>
-        <li>วิปครีม 600-800 ml.</li>
-        <li>น้ำตาลไอซิ่ง 30 กรัม</li>
-        <li>กลิ่นวนิลา 1/2 ช้อนโต๊ะ</li>
-        <li>กล้วยหอม</li>
-    </ul>
+    <div class="bg">
+        <div></div>
+        <h3 style="text-align: center; color:3C3633;">ส่วนผสม</h3>
+        <ul>
+            <li>แครกเกอร์ 200 กรัม</li>
+            <li>เนยละลาย(จืด) 80 กรัม</li>
+            <li>นมข้นหวาน 200 กรัม</li>
+            <li>ผงโกโก้ 30 กรัม</li>
+            <li>วิปครีม 600-800 ml.</li>
+            <li>น้ำตาลไอซิ่ง 30 กรัม</li>
+            <li>กลิ่นวนิลา 1/2 ช้อนโต๊ะ</li>
+            <li>กล้วยหอม</li>
+        </ul>
+    </div>
 
-    <h3>วิธีทำ</h3>
-    <ol>
-        <li>นำแครกเกอร์มาบดให้ละเอียด จากนั้นผสมเนยละลาย คลุกให้เข้ากัน</li>
-        <li>นำใส่ถ้วยเป็นฐานและกดให้แน่น พักไว้ก่อน</li>
-        <li>เตรียมช็อคโกแลตสำหรัยราด ให้เทนมข้นหวานใส่ถ้วย นำผงโกโก้มาร่อนใส่ถ้วย คนให้เข้ากัน</li>
-        <li>เทใส่ฐานแครกเกอร์ที่เตรียมไว้</li>
-        <li>หั่นกล้วยหอม วางบนช็อคโกแลต ใส่ตามความชอบ ราดนมข้นลงบนกล้วยอีกเล็กน้อย พักไว้ก่อน</li>
-        <li>นำวิปปิ้งครีมใส่เครื่องตี ใส่กลิ่นวานิลลาเล็กน้อย ตามด้วยน้ำตาลไอซ์ซิ่ง จากนั้นตีให้ขึ้นฟู ชิมรสชาติตามความชอบ นำใส่ถุงบีบ</li>
-        <li>นำวิปปิ้งครีมมาบีบแล้วแต่ความชอบ แล้วนำผงโกโก้โรยหน้า เป็นอันเสร็จ</li>
-    </ol>
-    <h3>ตารางข้อมูลโภชนาการ Banoffee Pie</h3>
-    <table border="1" width="400px" >
-        <tr>
-            <th colspan="2">คุณค่าทางโชนาการต่อหนึ่งหน่วยบริโภค</th>
-        </tr>
-        <tr>
-            <td colspan="2">พลังงานทั้งหมด 380 กิโลแคลอรี่</td>
-        </tr>
-        <tr>
-            <td colspan="2">% ร้อยละของปริมาณที่แนะนำต่อวัน</td>
-        </tr>
-        <tr>
-            <td>ไขมันทั้งหมด 25 g</td>
-            <td>38%</td>
-        </tr>
-        <tr>
-            <td>คลอเรสเตอรอล 50 mg</td>
-            <td>17%</td>
-        </tr>
-        <tr>
-            <td>โซเดียม 150 mg </td>
-            <td>8%</td>
-        </tr>
-        <tr>
-            <td>คาร์โบไฮเดรตทั้งหมด 36 g</td>
-            <td>12%</td>
-        </tr>
-        <tr>
-            <td colspan="2">โปรตีน 4 g</td>
-        
-        </tr>
-        
-    </table>
+    <div class="bg">
+        <h3 style="text-align: center; color:#3C3633;">วิธีทำ</h3>
+        <ol>
+            <li>นำแครกเกอร์มาบดให้ละเอียด จากนั้นผสมเนยละลาย คลุกให้เข้ากัน</li>
+            <li>นำใส่ถ้วยเป็นฐานและกดให้แน่น พักไว้ก่อน</li>
+            <li>เตรียมช็อคโกแลตสำหรัยราด ให้เทนมข้นหวานใส่ถ้วย นำผงโกโก้มาร่อนใส่ถ้วย คนให้เข้ากัน</li>
+            <li>เทใส่ฐานแครกเกอร์ที่เตรียมไว้</li>
+            <li>หั่นกล้วยหอม วางบนช็อคโกแลต ใส่ตามความชอบ ราดนมข้นลงบนกล้วยอีกเล็กน้อย พักไว้ก่อน</li>
+            <li>นำวิปปิ้งครีมใส่เครื่องตี ใส่กลิ่นวานิลลาเล็กน้อย ตามด้วยน้ำตาลไอซ์ซิ่ง จากนั้นตีให้ขึ้นฟู
+                ชิมรสชาติตามความชอบ นำใส่ถุงบีบ</li>
+            <li>นำวิปปิ้งครีมมาบีบแล้วแต่ความชอบ แล้วนำผงโกโก้โรยหน้า เป็นอันเสร็จ</li>
+        </ol>
+    </div>
+
+    <div class=" bg" class="nutrition-table " border="2">
+        <h3 style="text-align: center; color: #3C3633;">ตารางข้อมูลโภชนาการ Banoffee Pie</h3>
+        <table border="1" width="400px">
+            <tr>
+                <th colspan="2">คุณค่าทางโชนาการต่อหนึ่งหน่วยบริโภค</th>
+            </tr>
+            <tr>
+                <td colspan="2">พลังงานทั้งหมด 380 กิโลแคลอรี่</td>
+            </tr>
+            <tr>
+                <td colspan="2">% ร้อยละของปริมาณที่แนะนำต่อวัน</td>
+            </tr>
+            <tr>
+                <td>ไขมันทั้งหมด 25 g</td>
+                <td>38%</td>
+            </tr>
+            <tr>
+                <td>คลอเรสเตอรอล 50 mg</td>
+                <td>17%</td>
+            </tr>
+            <tr>
+                <td>โซเดียม 150 mg </td>
+                <td>8%</td>
+            </tr>
+            <tr>
+                <td>คาร์โบไฮเดรตทั้งหมด 36 g</td>
+                <td>12%</td>
+            </tr>
+            <tr>
+                <td colspan="2">โปรตีน 4 g</td>
+
+            </tr>
+
+        </table>
+    </div>
+
 </body>
+
 </html>
