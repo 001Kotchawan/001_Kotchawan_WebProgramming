@@ -1,18 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>934-206 Web Programimg : Kotchawan Sangnui</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>934-206 Web Programing : Kotchawan Sangnui</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styleIndex.css">
+
 </head>
+
 <body>
-    <h1>6540011001 Kotchawan Sangnui Web Programimg</h1>
-    <h2>Exercises :</h2>
-    <ul>
-        <li><a href="img/How website work 001,032.png">Ex1 : วาดรูปประกอบอธิบายองค์ประกอบของสถาปัตยกรรมของ Web ที่ปรากฏในวีดีโอ</a></li>
-        <li><a href="Banoffee.html">Ex2 : ค้นหาข้อมูลเมนูอาหารที่ชื่นชอบ จากนั้นให้นำมาสร้างหน้าเว็บเพจแสดงเมนูอาหารดังกล่าว 1 หน้าเว็บเพจ</a></li>
-        <li><a href="ex3_001_013.html">Ex3 : สร้างฟอร์มลงทะเบียนศิษย์เก่า IT + IS</a></li>
-        <li><a href="bootstrap.html">Ex4 : Bootstrap</a></li>
-    </ul>
+  <!-- แถบเมนูบนสุด -->
+  <div class="container-fluid pt-3 bg-head position-fixed ">
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#About">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Exercise">Exercise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container-fluid bg-head" id="Home">
+    <div class="container ">
+      <div class="row pt-5">
+
+        <div class="col-12 col-md-6 text-center head-img">
+          <img src="img/me.jpg" width="250px" class="img-fluid mb-3" alt="profile picture" />
+        </div>
+
+        <div class="intro col-12 col-md-6 ps-5 text-white d-flex flex-column justify-content-center ">
+          <h1 class="pt-5">I'm Kotchawan Sangnui!</h1>
+          <h2>6540011001</h2>
+          <a class="btn btn-light mt-3" style="font-size: 0.5cm; width: 200px;"  href="#About">Get To Know Me</a>
+        </div>
+        
+        <div class="text-center mb-4 mt-4 white-text">
+          <h3>
+            934-206 Web Programing
+          </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- เกี่ยวกับฉัน--> 
+  <div class="container-fluid secord-background p-0" id="About" id="Home" style="background-image: url(https://cdn.pixabay.com/photo/2016/09/29/13/08/planet-1702788_1280.jpg); background-size: cover;">
+    <div class="container ">
+      <div class="row pt-5">
+        <div class="col-md-6 pe-6 pt- text-center">
+          <img src="img/3.jpg" class="img-fluid mb-5" width="350px" alt="profile picture">
+        </div>
+        <div class="col-md-6 ps-5 bg-pink-gradient rounded d-flex flex-column justify-content-center text-white">
+          <h2>About me</h2>
+          <h4>Name : Kotchawan Sangnui <br>
+            I'm sea<br>
+            Student ID No. : 6540011001 <br>
+            Major : IT <br>
+            Prince of Songkla University Surat Thani Campus <br>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Excercise -->
+  <div class="container-fluid " id="Exercise">
+    <div class="container">
+      <h2 class="text-center py-2 bg-pink-gradient rounded mt-5">Exercise</h2>
+      <div class="row align-contents-center">
+
+        <div class="col-12 col-md-4 mt-5 d-flex justify-content-center">
+          <div class="card card-content position-static" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-2">Ex.1</h5>
+              <img src="img/w1.png" class="card-img-top" alt="">
+              <div class="card-dsc">
+                <p class="card-text mt-3 text-center">วาดภาพอธิบายสถาปัตยกรรมของ
+                  เทคโนโลยี World wide Web สรุปจากการดูวิดีโอและนำเสนอ
+                  หน้าชั้นเรียน</p>
+                <div class="btn-content d-flex justify-content-center">
+                  <a href="img/How website work 001,032.png" class="btn btn-primary "
+                    style="width: 60%; background-color: #525CEB;">Click</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4 mt-5 d-flex justify-content-center ">
+          <div class="card card-content position-static" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-2">Ex.2</h5>
+              <img src="img/im1.jpg" class="card-img-top" alt="">
+              <div class="card-dsc">
+                <p class="card-text mt-3 text-center">สร้างเว็บเพจเมนูอาหาร
+                  ที่ท่านชื่นชอบ</p>
+                <div class="btn-content d-flex justify-content-center">
+                  <a href="Banoffee.html" class="btn btn-primary "
+                    style="width: 60%; background-color: #525CEB;">Click</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4 mt-5 d-flex justify-content-center ">
+          <div class="card card-content position-static" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-2">Ex.3</h5>
+              <img src="img/form.png" class="card-img-top" alt="">
+              <div class="card-dsc">
+                <p class="card-text mt-3 text-center">สร้างเว็บเพจออกแบบฟอร์ม
+                  ลงทะเบียนศิษย์เก่า IT + IS</p>
+                <div class="btn-content d-flex justify-content-center">
+                  <a href="ex3_001_013.html" class="btn btn-primary "
+                    style="width: 60%; background-color: #525CEB;">Click</a>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4 mt-5 d-flex justify-content-center mb-5">
+          <div class="card card-content position-static" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-2">Ex.4</h5>
+              <img src="img/bootstrap.png" class="card-img-top" alt="">
+              <div class="card-dsc">
+                <p class="card-text mt-3 text-center">Bootstrap</p>
+              <div class="btn-content d-flex justify-content-center">
+                <a href="bootstrap.html" class="btn btn-primary "
+                  style="width: 60%; background-color: #525CEB;">Click</a>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-md-4 mt-5 d-flex justify-content-center mb-5 ">
+          <div class="card card-content position-static" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title text-center fs-2">Ex.5</h5>
+              <img src="img/loginn.jpg" class="card-img-top" alt="">
+              <div class="card-dsc">
+                <p class="card-text mt-3 text-center">Check Form Login</p>
+              <div class="btn-content d-flex justify-content-center">
+                <a href="Form.html" class="btn btn-primary " style="width: 60%; background-color: #525CEB;">Click</a>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- project -->
+  <div class="container-fluid secord-background" id="Project">
+    <div class="container ">
+      <div class="row pt-5">
+        <h1 class="ph1 py-2 text-center" id="Project">Project</h1>
+        <div class="d-flex justify-content-center">
+          <a href="project/project.html"><img src="img/Project.png" class="img-fluid mt-4 mb-5"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="container-fluid" id="Contact">
+    <div class="col-6 col-sm-12 mx-auto ">
+      <h1 class=" ph1 py-2 text-center" id="Project mt-3 md-5">Contact </h1>
+    </div>
+    
+    <div class="icon pt-3 left-margin d-flex justify-content-around m-0">
+      <div class="d-flex justify-content-between" style="min-width: 40%;">
+        <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+          </svg><span class="ms-3" >Kotchawan Sangnui</span><br>
+        </div>
+  
+        <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+          </svg><span class="ms-3">   ssea_kcw</span>
+        </div>
+  
+        <div class="icon-content">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+            class="bi bi-telephone-outbound" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5" />
+          </svg>
+          <span class="ms-3">0649613049</span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
 </body>
 </html>
